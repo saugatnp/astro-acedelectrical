@@ -2,9 +2,48 @@
 
 ---
 
+<style>
+    header {
+        background-color: var(--color-gray-light);
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .logo img {
+        display: block;
+        max-width: 15rem;
+        height: auto;
+    }
+
+    nav {
+        display: flex;
+        gap: 1rem;
+    }
+
+    nav a {
+        color: var(--color-tertiary);
+        padding: 2.325rem 1.0333rem;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    header .container {
+        margin: 0 12rem;
+        position: sticky;
+    }
+</style>
 <header>
     <div class="container">
-        <a class="logo" href="/"> <svg><!-- SVG Logo goes here --></svg></a>
+        <a class="logo" aria-label="Bejamas Home" href="/">
+            <img
+                src="https://progreenenergy.com.au/wp-content/uploads/2021/02/Logo_landscape-02.png"
+                class="css-filter size-full"
+            />
+        </a>
         <nav>
             <a href="/">Home</a>
             <a href="/services">Services</a>

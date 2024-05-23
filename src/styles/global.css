@@ -1,0 +1,41 @@
+:root{
+    --color-primary: #FFC107;
+    --color-secondary: #FF9800;
+    --color-tertiary: #FF5722;
+    --color-quaternary: #795548;
+    --color-text: #212121;
+    --color-background: #F5F5F5;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-gray: #9E9E9E;
+    --color-gray-light: #E0E0E0;
+    --color-gray-dark: #616161;
+    --color-success: #4CAF50;
+    --color-danger: #F44336;
+    --color-warning: #FFC107;
+    --color-link: #2196F3;
+    --color-link-hover: #1976D2;
+    --color-link-active: #3F51B5;
+    --color-link-disabled: #9E9E9E;
+    --color-link-focus: #2196F3;
+    --color-link-text: #FFFFFF;
+    --color-link-text-hover: #FFFFFF;
+}
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+} 
+
+body {
+    margin :0;
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--color-background);
+}
+.base-heading{
+    text-align: center;
+    font-weight: 700;
+    color: var(--color-text);
+}
